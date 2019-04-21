@@ -1,6 +1,10 @@
+@Grapes(
+  @Grab(group='org.apache.httpcomponents', module='httpclient', version='4.5.8')
+)
+
 import com.example.SharedLibraryConstants
-@Grab(group='org.apache.httpcomponents', module='httpclient', version='4.5.8')
 import org.apache.httpcomponents.httpclient  
+import groovy.json.JsonSlurper
 
 def call() {
   def jsonSlurper = new JsonSlurper()
