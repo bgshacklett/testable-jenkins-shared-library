@@ -1,4 +1,5 @@
 import com.example.SharedLibraryConstants
+@Grab(group='org.apache.httpcomponents', module='httpclient', version='4.5.8')
 import org.apache.httpcomponents.httpclient  
 
 def call() {
