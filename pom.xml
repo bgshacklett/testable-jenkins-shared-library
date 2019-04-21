@@ -55,6 +55,13 @@
 	</dependencyManagement>
 
 	<dependencies>
+
+    <dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.8</version>
+			<scope>compile</scope>
+		</dependency>
 		
 		<dependency>
 			<groupId>com.homeaway.devtools.jenkins</groupId>
@@ -185,7 +192,7 @@
 			<version>2.10</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 	</dependencies>
 	
 	<build>
